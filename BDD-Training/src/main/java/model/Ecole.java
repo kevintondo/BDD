@@ -2,11 +2,11 @@ package model;
 
 public class Ecole {
 
+    String name;
+    boolean statut;
 
-    String statut;
-
-    public Ecole(String statut) {
-
-        this.statut = statut;
+    public Ecole(String name,boolean statut) {
+        this.name = name;
+        this.statut = true;
     }
 }
